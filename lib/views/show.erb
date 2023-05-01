@@ -1,0 +1,20 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<h1>PAGE POTIN !</h1>
+
+		<% gossips.each do |gossip| %>
+			<p>
+				Voici le potin no. <%= id%><br/>
+			  Son auteur : <%= gossip.author %><br/>
+			  Le contenu du potin: <%= gossip.content %><br/>
+			</p>
+		  <% end %>
+			<p>
+				Click <a href='/'>here</a> to go back to all the goss.
+			</p>
+
+	</body>
+</html>

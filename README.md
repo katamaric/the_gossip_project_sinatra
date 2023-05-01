@@ -1,0 +1,1 @@
+A gossip project using Sinatra. 
